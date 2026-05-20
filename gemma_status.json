@@ -1,6 +1,7 @@
 {
     "status": "active",
-    "version": "1.0.0",
+    "trial_bypass": false,
+    "version": "0.9.1",
     "downloads": {
         "win32": ""
     }
