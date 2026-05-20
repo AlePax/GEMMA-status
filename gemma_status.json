@@ -1,6 +1,6 @@
 {
     "status": "active",
-    "trial_bypass": false,
+    "trial_bypass": true,
     "version": "0.9.1",
     "downloads": {
         "win32": ""
