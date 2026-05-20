@@ -1,0 +1,28 @@
+/*{
+    "DESCRIPTION": "Vignette",
+    "CREDIT": "GEMMA",
+    "ISFVSN": "2",
+    "CATEGORIES": ["Stylize"],
+    "INPUTS": [
+        { "NAME": "u_strength",  "LABEL": "Strength",  "TYPE": "float", "DEFAULT": 0.5, "MIN": 0.0, "MAX": 1.0, "STEP": 0.05 },
+        { "NAME": "u_softness",  "LABEL": "Softness",  "TYPE": "float", "DEFAULT": 0.8, "MIN": 0.1, "MAX": 2.0, "STEP": 0.05 },
+        { "NAME": "u_roundness", "LABEL": "Roundness", "TYPE": "float", "DEFAULT": 1.0, "MIN": 0.0, "MAX": 1.0, "STEP": 0.05 }
+    ]
+}*/
+#version 330 core
+uniform sampler2D u_tex;
+uniform float u_strength;
+uniform float u_softness;
+uniform float u_roundness;
+in  vec2 v_uv;
+out vec4 frag_color;
+
+void main() {
+    vec2  uv     = v_uv - 0.5;
+    float dist_c = length(uv) * 2.0;
+    float dist_r = max(abs(uv.x), abs(uv.y)) * 2.0;
+    float dist   = mix(dist_r, dist_c, u_roundness);
+    float vign   = smoothstep(1.0, 1.0 - u_softness, dist);
+    vec4  orig   = texture(u_tex, v_uv);
+    frag_color   = vec4(orig.rgb * mix(1.0, vign, u_strength), orig.a);
+}

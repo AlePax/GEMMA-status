@@ -1,0 +1,160 @@
+{
+  "version": 3,
+  "folder": "",
+  "graph": {
+    "nodes": [
+      {
+        "id": "db94c053",
+        "type": "PassSource",
+        "params": {
+          "pass_key": "CShading_Beauty"
+        },
+        "pos": [
+          -598.0,
+          -153.0
+        ],
+        "active": false,
+        "bypassed": false
+      },
+      {
+        "id": "e53618ba",
+        "type": "Preview",
+        "params": {},
+        "pos": [
+          537.0,
+          -96.0
+        ],
+        "active": true,
+        "bypassed": false
+      },
+      {
+        "id": "23b07e06",
+        "type": "ColorGrade",
+        "params": {
+          "exposure": 0.08,
+          "contrast": 0.95,
+          "saturation": 0.93,
+          "hue_shift": 0.0,
+          "lift_r": -0.04843181042395392,
+          "lift_g": -0.010736749631019038,
+          "lift_b": 0.059168558150807994,
+          "gamma_r": 1.0159949989860706,
+          "gamma_g": 1.061262883296988,
+          "gamma_b": 0.9227421285819275,
+          "gain_r": 1.0677596356818118,
+          "gain_g": 0.9367794035073422,
+          "gain_b": 0.995460949598659
+        },
+        "pos": [
+          260.0,
+          81.0
+        ],
+        "active": false,
+        "bypassed": false
+      },
+      {
+        "id": "d9b65173",
+        "type": "Relighting",
+        "params": {
+          "azimuth": 118.113,
+          "elevation": 35.373,
+          "intensity": 0.877,
+          "warm": 0.0,
+          "blend_mode": "softlight"
+        },
+        "pos": [
+          -263.0,
+          -30.0
+        ],
+        "active": false,
+        "bypassed": false
+      },
+      {
+        "id": "8515c622",
+        "type": "PassSource",
+        "params": {
+          "pass_key": "CGeometry_NormalsShading"
+        },
+        "pos": [
+          -592.0,
+          127.0
+        ],
+        "active": false,
+        "bypassed": false
+      },
+      {
+        "id": "ffa2e85e",
+        "type": "DepthOfField",
+        "params": {
+          "focus_pct": 87.628,
+          "focus_range": 62.58,
+          "max_blur": 43.541,
+          "bokeh_power": 1.407
+        },
+        "pos": [
+          -18.0,
+          180.0
+        ],
+        "active": false,
+        "bypassed": false
+      },
+      {
+        "id": "9eaa40cc",
+        "type": "PassSource",
+        "params": {
+          "pass_key": "CGeometry_ZDepth"
+        },
+        "pos": [
+          -382.0,
+          274.0
+        ],
+        "active": false,
+        "bypassed": false
+      }
+    ],
+    "edges": [
+      {
+        "src_node": "db94c053",
+        "src_port": "image",
+        "dst_node": "d9b65173",
+        "dst_port": "image"
+      },
+      {
+        "src_node": "23b07e06",
+        "src_port": "image",
+        "dst_node": "e53618ba",
+        "dst_port": "image"
+      },
+      {
+        "src_node": "8515c622",
+        "src_port": "image",
+        "dst_node": "d9b65173",
+        "dst_port": "normals"
+      },
+      {
+        "src_node": "d9b65173",
+        "src_port": "image",
+        "dst_node": "ffa2e85e",
+        "dst_port": "image"
+      },
+      {
+        "src_node": "ffa2e85e",
+        "src_port": "image",
+        "dst_node": "23b07e06",
+        "dst_port": "image"
+      },
+      {
+        "src_node": "9eaa40cc",
+        "src_port": "image",
+        "dst_node": "ffa2e85e",
+        "dst_port": "depth"
+      }
+    ],
+    "active_preview": "e53618ba"
+  },
+  "viewport": {
+    "ev": 0.0,
+    "gamma": 2.2,
+    "tonemap": "reinhard"
+  }
+}
