@@ -1,8 +1,9 @@
 {
-    "status": "active",
-    "trial_bypass": true,
-    "version": "1.3.20",
-    "downloads": {
-        "win32": "https://github.com/AlePax/GEMMA-status/tree/8c04e941881248ff7b846ef9655df9dd3239ceef/download/GEMMA.exe"
-    }
+  "status": "active",
+  "trial_bypass": true,
+  "version": "1.3.22",
+  "downloads": {
+    "win32": "https://github.com/AlePax/gemma-status/releases/download/v1.3.22/GEMMA.exe",
+    "shaders": "https://github.com/AlePax/gemma-status/releases/download/v1.3.22/shaders.zip"
+  }
 }
