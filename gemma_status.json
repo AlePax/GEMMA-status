@@ -1,6 +1,6 @@
 {
   "status": "active",
-  "trial_bypass": true,
+  "trial_bypass": false,
   "version": "1.3.23",
   "downloads": {
     "win32": "https://github.com/AlePax/gemma-status/releases/download/v1.3.23/GEMMA.exe",
