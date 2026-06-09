@@ -1,12 +1,12 @@
 {
   "status": "active",
-  "version": "1.3.76",
+  "version": "1.3.77",
   "downloads": {
-    "win32": "https://github.com/AlePax/gemma-status/releases/download/v1.3.76/GEMMA.exe",
-    "shaders": "https://github.com/AlePax/gemma-status/releases/download/v1.3.76/shaders.zip"
+    "win32": "https://github.com/AlePax/gemma-status/releases/download/v1.3.77/GEMMA.exe",
+    "shaders": "https://github.com/AlePax/gemma-status/releases/download/v1.3.77/shaders.zip"
   },
   "sha256": {
-    "GEMMA.exe": "aabaf2436df01416f933866759df09920c317b306c37903e2069bbf7a8007853",
+    "GEMMA.exe": "16819a897c8109170015ba69b89b1ecaf65ab00873493abb6520f42f895b1a83",
     "shaders.zip": "f53c8e2a6706ad0b8b8ec53704763c2e72ecfcbdc05341bcf9c7934ac465ee75"
   }
 }
