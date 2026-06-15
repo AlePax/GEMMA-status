@@ -11,5 +11,8 @@
   },
   "licensed_keys_sha256": [
     "08c47cd96650efe6046060a8f7b7609042e0910977b2944ed9fa90461796a4db"
+  ],
+  "licensed_bound_sha256": [
+    "ebb66a8dfe147679fad1a6b1ca22a0d5d920524ecdbd7ac19357e02f1d94d6e3"
   ]
 }
