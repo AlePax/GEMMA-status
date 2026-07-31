@@ -13,5 +13,37 @@
   "licensed_bound_sha256": [
     "d410f31f7872e5b3f6d431e59dca747c813d9d456a40af7b1ee2c5bbd2a1bffe",
     "dd952bb8065bac8d2c76588644f0dafd4a40231211f9b40a84ab018fb0b7fab6"
+  ],
+  "history": [
+    {
+      "v": "1.4.76",
+      "exe": "3dc0803b299d86271419ee1410c8ab80fd2a651e761854acdf8f3ca0de09ad6b",
+      "shd": "25f7c2798ad8d0642b79a4e84f0fec2b265071f7fd33a4e28e89f0f9fc886950",
+      "sess": 6
+    },
+    {
+      "v": "1.4.67",
+      "exe": "bdd8a753fa5875ebb1cf286d7a7e38389f6f8fd9d1f714259426b43db2538173",
+      "shd": "25f7c2798ad8d0642b79a4e84f0fec2b265071f7fd33a4e28e89f0f9fc886950",
+      "sess": 6
+    },
+    {
+      "v": "1.4.64",
+      "exe": "0a827ed785890efddc874884aecd7284990bea71ba72d1f9e189c5566032b988",
+      "shd": "c54f48863f3ca2d0360a36b846900695165748a9177983395b5a3e953b538224",
+      "sess": 6
+    },
+    {
+      "v": "1.4.63",
+      "exe": "4979930a79c5768cbe2590511fe64a5b130193e575e25eeed66c09a8ff5e704a",
+      "shd": "c54f48863f3ca2d0360a36b846900695165748a9177983395b5a3e953b538224",
+      "sess": 6
+    },
+    {
+      "v": "1.4.62",
+      "exe": "5241a23981b37774916d32d5a02018dfd7cd852c68bab2dc6213fe2efedfbdcc",
+      "shd": "c54f48863f3ca2d0360a36b846900695165748a9177983395b5a3e953b538224",
+      "sess": 6
+    }
   ]
 }
