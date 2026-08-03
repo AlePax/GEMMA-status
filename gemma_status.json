@@ -1,13 +1,13 @@
 {
   "status": "active",
-  "version": "1.4.84",
+  "version": "1.4.88",
   "downloads": {
-    "win32": "https://github.com/AlePax/gemma-status/releases/download/v1.4.84/GEMMA.exe",
-    "shaders": "https://github.com/AlePax/gemma-status/releases/download/v1.4.84/shaders.zip"
+    "win32": "https://github.com/AlePax/gemma-status/releases/download/v1.4.88/GEMMA.exe",
+    "shaders": "https://github.com/AlePax/gemma-status/releases/download/v1.4.88/shaders.zip"
   },
   "sha256": {
-    "GEMMA.exe": "e1203aed287425fbfaf9e361c6aa8e1d369c96da4eff87a5021abf28a9a04b74",
-    "shaders.zip": "25f7c2798ad8d0642b79a4e84f0fec2b265071f7fd33a4e28e89f0f9fc886950"
+    "GEMMA.exe": "7488abdde348bfb333af5d9af2f7ec15764bb9179118a7a3781bdb625b5e5c49",
+    "shaders.zip": "b243f2b38ef4dd52ec5096248fbd7227f3f903c76726a5f84f8f20ed903ee6e0"
   },
   "licensed_keys_sha256": [],
   "licensed_bound_sha256": [
@@ -15,6 +15,12 @@
     "dd952bb8065bac8d2c76588644f0dafd4a40231211f9b40a84ab018fb0b7fab6"
   ],
   "history": [
+    {
+      "v": "1.4.88",
+      "exe": "7488abdde348bfb333af5d9af2f7ec15764bb9179118a7a3781bdb625b5e5c49",
+      "shd": "b243f2b38ef4dd52ec5096248fbd7227f3f903c76726a5f84f8f20ed903ee6e0",
+      "sess": 6
+    },
     {
       "v": "1.4.84",
       "exe": "e1203aed287425fbfaf9e361c6aa8e1d369c96da4eff87a5021abf28a9a04b74",
@@ -66,12 +72,6 @@
     {
       "v": "1.4.63",
       "exe": "4979930a79c5768cbe2590511fe64a5b130193e575e25eeed66c09a8ff5e704a",
-      "shd": "c54f48863f3ca2d0360a36b846900695165748a9177983395b5a3e953b538224",
-      "sess": 6
-    },
-    {
-      "v": "1.4.62",
-      "exe": "5241a23981b37774916d32d5a02018dfd7cd852c68bab2dc6213fe2efedfbdcc",
       "shd": "c54f48863f3ca2d0360a36b846900695165748a9177983395b5a3e953b538224",
       "sess": 6
     }
