@@ -32,48 +32,6 @@
       "exe": "13cd1d4cf746e602cd6e83421db16202eff8e07c83d17717e87818a13292b61a",
       "shd": "4a9b49ff88e3aa2c506d3dbda95783088bf45306529cc8127ba3b0424912cc90",
       "sess": 6
-    },
-    {
-      "v": "1.5.42",
-      "exe": "1a7ce1077e7a9af62be394afce0789a37fa5280a43fce9cb6a0f1b25670a28f5",
-      "shd": "43cef93f88372c5712fc4929e5417eae61a17dff3165992dac657a5751c4b0bf",
-      "sess": 6
-    },
-    {
-      "v": "1.5.12",
-      "exe": "186efec7e59fc31e1b40b52a369a1d8fd6fd23e8b561a91f3bf89116696e56c3",
-      "shd": "f7948a01d07f20046c1084662b39e9a1da49fd44bb21ffaf3d10f1224539abf5",
-      "sess": 6
-    },
-    {
-      "v": "1.5.11",
-      "exe": "93bbe5b84946d9b6078e8d50888a0f71d3c4c63ed9ce873ad75979e08d077419",
-      "shd": "f7948a01d07f20046c1084662b39e9a1da49fd44bb21ffaf3d10f1224539abf5",
-      "sess": 6
-    },
-    {
-      "v": "1.5.03",
-      "exe": "e01ad98409c1b8e7c46287c7b38b3595fdc5b8c94fb5501f79adb830fd02752b",
-      "shd": "33404b303df0c03aff3d86261aacaa99a7dc4e9d8cc742e9ac0d1f16250c6c4b",
-      "sess": 6
-    },
-    {
-      "v": "1.4.99",
-      "exe": "2365a8d3f26a0d3935ee2a19280942cce8109c7a57345d157be3e436cb8600a8",
-      "shd": "4ff9618764fa291b44547e97bc824a12fe3fe93bcdf87b33ab8d0e4015d5c341",
-      "sess": 6
-    },
-    {
-      "v": "1.4.97",
-      "exe": "afaffd899cc3ab4ed00c4de95bef72933ad38de8e471dd1f9ef8cf1088d1b33a",
-      "shd": "46b1a4d12bec6c7bf9ee4167799818a2f18ba1ab2888a9f80e429a8fb685f254",
-      "sess": 6
-    },
-    {
-      "v": "1.4.91",
-      "exe": "6459179ac261b2bbe03f08eec6bb66557889735279db38fc60d45905ca4ea45c",
-      "shd": "2504f742ca48f426bca89d3f214b4de211720cf4cfef6256ad0f6c4921445edf",
-      "sess": 6
     }
   ]
 }
