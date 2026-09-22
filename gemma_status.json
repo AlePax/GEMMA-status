@@ -16,6 +16,18 @@
   ],
   "history": [
     {
+      "v": "1.5.47",
+      "exe": "ad88468ae8dd57a29e86e168d3277756ff6c2c10b8c69d78e67e4fd8c5b94761",
+      "shd": "4a9b49ff88e3aa2c506d3dbda95783088bf45306529cc8127ba3b0424912cc90",
+      "sess": 6
+    },
+    {
+      "v": "1.5.46",
+      "exe": "b01b331f3eb66e5988db75add14dd8dfa875f45bba3e0d66227cc91b6335fef0",
+      "shd": "4a9b49ff88e3aa2c506d3dbda95783088bf45306529cc8127ba3b0424912cc90",
+      "sess": 6
+    },
+    {
       "v": "1.5.45",
       "exe": "9642feca29ba0033ae75b837909f61622a7f47ed0760971002f04995ced835ba",
       "shd": "4a9b49ff88e3aa2c506d3dbda95783088bf45306529cc8127ba3b0424912cc90",
